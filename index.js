@@ -2,12 +2,14 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 
+// app.set('view engine', 'jsx')
+// app.engine('jsx', require('express-react-views').createEngine())
 
 // Controllers & Routes
 app.use('/travel', require('./controllers/travel'));
 
 app.get('/', (req, res) => {
-     res.send('Hello world!');
+     res.send('Home Page');
 });
 
 app.get('*', (req, res) => {

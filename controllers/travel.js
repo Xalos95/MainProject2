@@ -1,7 +1,7 @@
 const router = require('express').Router()
 
 router.get('/', (req, res) => {
-    res.send('GET /travel')
+    res.send('Travel locations')
 })
 
 

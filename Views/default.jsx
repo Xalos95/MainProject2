@@ -3,8 +3,9 @@ const React = require('react')
 function Def (html) {
     return (
         <html>
-            <title>Rest-Rant</title>
-            
+            <head>
+                <title>Rest-Rant</title>
+            </head>
             <body>
                 <nav>
                     <ul>
