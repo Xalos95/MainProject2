@@ -1,15 +1,6 @@
-const express = require('express');
-const router = express.Router();
+const router = require('express').Router();
 
 
-// 
-app.get('/', (req, res) => {
-     res.send('Home Page');
-});
-
-app.get('*', (req, res) => {
-     res.status(404).send('<h1>404 Page</h1>');
-});
 
 router.get('/', (req, res) => {
      res.send('GET /places stub')
