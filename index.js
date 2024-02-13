@@ -8,17 +8,16 @@ const PORT = process.env.PORT || 4000;
 
 
 // connection string to database:Mongoose
-mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
-     .then(() => {
-          console.log('Connected to MongoDB');
-          // Start the server
-          app.listen(process.env.PORT, () => {
-               console.log(`Server is running on port ${process.env.PORT}`);
-          });
-     })
-     .catch(err => {
-          console.error('Error connecting to MongoDB:', err.message);
-     });
+mongoose.connect('mongodb://localhost:27017/MainProject2', { 
+     // useNewUrlParser: true, 
+     // useUnifiedTopology: true 
+});
+
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+db.once('open', () => {
+     console.log('Connected to MongoDB');
+});
 
 
 // Middleware
