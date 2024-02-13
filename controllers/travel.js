@@ -6,14 +6,7 @@ router.use(bodyParser.urlencoded({ extended: true }));
 
 // homepage
 router.get('/', (req, res) => {
-    db.Travel.find
-    .then(() => {
-        res.send('Travel route');
-    })
-    .catch (err => {
-        console.log(error);
-        res.render('error404')
-    });
+res.send('Welcome to the homepage!');
 });
 
 // GET request to /travel/:name -->SHOW
