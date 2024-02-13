@@ -1,8 +1,10 @@
+require('dotenv').config();
 const express = require("express");
 const mongoose = require("mongoose");
 
 const app = express();
 const PORT = process.env.PORT || 4000;
+
 
 
 // connection string to database:Mongoose
@@ -24,36 +26,12 @@ app.use(express.json())
 
 
 
-//config
-require('dotenv').config();
+
 
 
 
 //controllers
 app.use('/travel', require('./controllers/travel'));
-
-// Routes
-app.get('/api/destinations', (req, res) => {
-     // Logic to fetch travel destinations from a database or other data source
-     const destinations = [
-          { id: 1, name: 'New York', description: 'The city that never sleeps' },
-          { id: 2, name: 'Paris', description: 'The city of love' }
-     ];
-     res.json(destinations);
-});
-
-app.post('/api/destinations', (req, res) => {
-     // Logic to create a new travel destination
-});
-
-app.put('/api/destinations/:id', (req, res) => {
-     // Logic to update a travel destination with a specific ID
-});
-
-app.delete('/api/destinations/:id', (req, res) => {
-     // Logic to delete a travel destination with a specific ID
-});
-
 
 // Start server
 app.listen(PORT, () => {
