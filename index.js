@@ -24,13 +24,27 @@ db.once('open', () => {
 app.use(express.json())
 
 
-
-
-
-
-
 //controllers
 app.use('/travel', require('./controllers/travel'));
+
+
+// connecting backend to frontend(jcjeztravel)
+app.get('/travel', (req, res) => {
+     // Logic to fetch data from database
+     // assuming /travel/data is the route in jcjeztravel that will receive this request
+     const data = [
+          // example data, need to add real data here
+          // name: { type: String, require: true },
+          // pic: String,
+          // city: { type: String, require: true },
+          // time: Number,
+          // departure: Number,
+          // price: Number
+          { id: 1, name: 'Example Data 1' },
+          { id: 2, name: 'Example Data 2' }
+     ];
+     res.json(data);
+});
 
 // Start server
 app.listen(PORT, () => {

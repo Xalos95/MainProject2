@@ -67,7 +67,7 @@ router.post('/travel/login', async (req, res) => {
         // Here you can validate the username and password
         // If they are valid, redirect to receipt page
         if (username === 'user' && password === 'pass') {
-            res.redirect('/receipt');
+            res.redirect('/travel/:name/receipt');
         } else {
             res.send('Invalid credentials. <a href="/login">Try again</a>');
         }
