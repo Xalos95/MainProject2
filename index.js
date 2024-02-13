@@ -30,7 +30,7 @@ require('dotenv').config();
 
 
 //controllers
-app.use('/travel', require('./routes/travel'));
+app.use('/travel', require('./controllers/travel'));
 
 // Routes
 app.get('/api/destinations', (req, res) => {
