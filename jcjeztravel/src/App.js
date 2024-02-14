@@ -1,5 +1,7 @@
 import ReactDOM from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+
+import { BrowserRouter as Router, Route,} from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
@@ -44,13 +46,13 @@ const App = () => {
     <Router>
       <Navbar />
       <div className="container">
-        <Switch>
+       
           <Route exact path="/" component={Home} />
           <Route exact path="/travel/:name" component={TravelDetails} />
           <Route exact path="/travel/login" component={UserLogin} />
           <Route exact path="/travel/:name/receipt" component={Receipt} />
           <Route component={Error} /> {/* For 404 errors */}
-        </Switch>
+        
       </div>
     </Router>
   );
