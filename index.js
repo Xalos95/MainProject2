@@ -9,21 +9,12 @@ const PORT = process.env.PORT || 4000;
 
 // connection string to database:Mongoose
 
-
-mongoose.connect(
-     'mongodb+srv://josemanzano87:Snsd43ver%21@cluster0.iwlsu27.mongodb.net/?retryWrites=true&w=majority',
-     {
-          useNewUrlParser: true,
-          useUnifiedTopology: true
-     }
-).then(() => {
-     console.log('Connected to MongoDB');
-}).catch(err => {
-     console.error('Error connecting to MongoDB:', err);
-});
-
-const db = mongoose.connection;
-db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+mongoose.connect('mongodb+srv://josemanzano87:Snsd43ver%21@cluster0.iwlsu27.mongodb.net/?retryWrites=true&w=majority'
+     , 
+     { useNewUrlParser: true, useUnifiedTopology: true }
+     )
+     .then(() => console.log('Connected to MongoDB'))
+     .catch(err => console.error('Error connecting to MongoDB:', err));
 
 
 
