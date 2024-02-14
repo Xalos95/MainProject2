@@ -43,10 +43,10 @@ const Navbar = () => {
             <Link to="/">Home</Link> {/* Use Link instead of anchor tags */}
           </li>
           <li>
-            <Link to="/travel-details">Travel Details</Link> {/* Adjust paths accordingly */}
+            <Link to="/travel/:name">Travel Details</Link> {/* Adjust paths accordingly */}
           </li>
           <li>
-            <Link to="/user-login">User Login</Link>
+            <Link to="/travel/login">Login</Link>
           </li>
           <li>
             <Link to="/user-receipt">User Receipt</Link>
