@@ -4,13 +4,12 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar'; // Import Navbar component
 import Home from './components/Home';
 import TravelDetails from './components/TravelDetails';
-import Receipt  from './components/UserReceipt';
+import Receipt from './components/UserReceipt';
 import Error from './components/Error';
 import UserLogin from './components/UserLogin';
-
 
 const App = () => {
   const [data, setData] = useState([]);
@@ -19,7 +18,6 @@ const App = () => {
     const fetchData = async () => {
       try {
         const result = await axios.get('/travel');
-        // Assuming backend route is /travel/data
         setData(result.data);
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -55,7 +53,5 @@ const App = () => {
     </Router>
   );
 };
-
-ReactDOM.render(<App />, document.getElementById('root'));
 
 export default App;
