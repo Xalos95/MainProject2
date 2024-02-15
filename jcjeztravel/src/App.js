@@ -16,7 +16,7 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const result = await axios.get('/travel');
+        const result = await axios.get('/travel/data');
         setData(result.data);
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -39,6 +39,8 @@ const App = () => {
         </Routes>
       </Router>
     </div>
+
+
   );
 };
 
