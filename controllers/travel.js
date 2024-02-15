@@ -1,7 +1,19 @@
 const router = require('express').Router();
 const bodyParser = require('body-parser');
-const db = require('../models');
+const traveldb = require('../models');
 router.use(bodyParser.urlencoded({ extended: true }));
+
+// fetch data from MongoDB
+router.get ('/data', async (req, res) => {
+    try {
+        const data = await traveldb.find();
+        res.json(data);
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).send('Internal Server Error');
+    }
+})
+
 
 // homepage
 router.get('/', async (req, res) => {

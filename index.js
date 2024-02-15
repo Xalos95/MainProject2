@@ -1,22 +1,24 @@
 require('dotenv').config();
 const express = require("express");
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
+const connectDB = require('./db')
 // const uri = 'mongodb+srv://josemanzano87:Snsd43ver!@cluster0.iwlsu27.mongodb.net/?retryWrites=true&w=majority';
 
 
 // connection string to database:Mongoose
 
-mongoose.connect('mongodb+srv://josemanzano87:Snsd43ver%21@cluster0.iwlsu27.mongodb.net/?retryWrites=true&w=majority'
-     , 
-     { useNewUrlParser: true, useUnifiedTopology: true }
-     )
-     .then(() => console.log('Connected to MongoDB'))
-     .catch(err => console.error('Error connecting to MongoDB:', err));
+// mongoose.connect('mongodb+srv://josemanzano87:Snsd43ver%21@cluster0.iwlsu27.mongodb.net/?retryWrites=true&w=majority'
+//      , 
+//      { useNewUrlParser: true, useUnifiedTopology: true }
+//      )
+//      .then(() => console.log('Connected to MongoDB'))
+//      .catch(err => console.error('Error connecting to MongoDB:', err));
 
-
+// connect to MongoDb
+connectDB();
 
 // Middleware
 app.use(express.json())
