@@ -11,7 +11,6 @@ li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #edf0f1;
     text-decoration: none;
 }
 
@@ -20,7 +19,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
-    background-image: url('images/nav-background.jpg');
+    background-image: url(C:\Users\0470h\MainProject2\jcjeztravel\public\images\nav-background.jpg);
     background-repeat: repeat;
 }
 
@@ -54,15 +53,3 @@ padding: 0px 20px;
     padding: 0px 20px;
 }
 
-/* button {
-    padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-button:hover {
-    background-color: rgba(0,136,169,0.8);
-}

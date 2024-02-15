@@ -32,11 +32,12 @@
 
 import React from "react";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import "../CSS/navbar.css"; 
 
 const Navbar = () => {
   return (
     <header>
-      <img className="logo" src="images/airplane.png" alt="logo" />
+       <img className="logo" src="C:\Users\0470h\MainProject2\jcjeztravel\public\images\logo.png" alt="logo" />
       <nav>
         <ul className="nav__links">
           <li>
