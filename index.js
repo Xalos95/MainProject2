@@ -6,34 +6,22 @@ const mongoose = require('mongoose');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
-<<<<<<< HEAD
 const connectDB = require('./db')
 // const uri = 'mongodb+srv://josemanzano87:Snsd43ver!@cluster0.iwlsu27.mongodb.net/?retryWrites=true&w=majority';
-=======
-
->>>>>>> 40eabc07e8a1174c36eea41fbfb4338c7065742b
 
 
 // connection string to database:Mongoose
-mongoose.connect('mongodb://localhost:27017/MainProject2', { 
-     // useNewUrlParser: true, 
-     // useUnifiedTopology: true 
-});
+// mongoose.connect('mongodb://localhost:27017/MainProject2', { 
+//      // useNewUrlParser: true, 
+//      // useUnifiedTopology: true 
+// });
 
-<<<<<<< HEAD
 // mongoose.connect('mongodb+srv://josemanzano87:Snsd43ver%21@cluster0.iwlsu27.mongodb.net/?retryWrites=true&w=majority'
 //      , 
 //      { useNewUrlParser: true, useUnifiedTopology: true }
 //      )
 //      .then(() => console.log('Connected to MongoDB'))
 //      .catch(err => console.error('Error connecting to MongoDB:', err));
-=======
-const db = mongoose.connection;
-db.on('error', console.error.bind(console, 'MongoDB connection error:'));
-db.once('open', () => {
-     console.log('Connected to MongoDB');
-});
->>>>>>> 40eabc07e8a1174c36eea41fbfb4338c7065742b
 
 // connect to MongoDb
 connectDB();
