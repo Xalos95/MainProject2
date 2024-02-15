@@ -99,28 +99,50 @@ const Home = () => {
           <img
             src="https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D "
             height="350px" alt="vaction spot 1"
-            width="350px"
-          />
+            width="350px" 
+          />             <h5> Discover the World through budget-friendly domestic flight offers</h5>
           <h5> </h5>
         </div>
         <div className="sec-pic">
           <img
             src="https://images.unsplash.com/photo-1537431701805-c1bb45cd2f92?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D "
-            height="400px" alt=" vaction spot 2"
+            height="350px" alt=" vaction spot 2"
             width="350px"
           />
-          <h5> </h5>
+                             <h5>Discover enticing international flight deals to transport you to unforgettable destinations around the globe. </h5>
         </div>
         <div className="sec-pic">
           <img
             src=" https://images.unsplash.com/photo-1513415564515-763d91423bdd?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3 "
-            height="305px" alt="vaction spot 3"
+            height="350px" alt="vaction spot 3"
             width="350px"
-          />
-          <h5> </h5>
+          />                 <h5>Indulge in affordable luxury with discounted business class flight tickets for a well-deserved treat. </h5>
+         
         </div>
       </div>
     </section>
+    <section>
+     <h1> Tips on finding low priced fights! </h1>
+     
+<h3>
+<ol>
+  <li><strong>Best Day to Buy Tickets:</strong> Sundays are generally cheaper for both domestic and international flights, while Fridays tend to be the most expensive. Booking on Sundays could save you up to 6% on airfare.</li>
+  
+  <li><strong>Best Time to Buy Tickets:</strong> Prices for domestic flights usually start to increase 56 days before departure, and for international flights, prices start to increase 21 days before departure. Keep an eye on prices and compare fares across different airlines.</li>
+  
+  <li><strong>Cheapest Days to Fly:</strong> Fridays can be cheaper for departing flights as many travelers start their trips on Sundays. Starting your trip on a Friday could save you almost 11% compared to Sunday flights.</li>
+  
+  <li><strong>Cheapest Month to Fly:</strong> The cheapest month to fly varies depending on your destination. For international flights, November tends to be cheaper compared to February, offering potential savings of up to 34.6%. For domestic flights, August is often the least expensive month, offering savings of up to 35%.</li>
+  
+  <li><strong>Booking on Expedia:</strong> Use Expedia to compare cheap airline ticket prices from a large inventory of carriers. Stay flexible with travel dates, carriers, and flight types to get the best price. Consider becoming a member to earn rewards on every booking.</li>
+  
+  <li><strong>Save Money by Mixing and Matching:</strong> Mix and match airline tickets and fare types to save money on airfare. Compare prices for carriers, dates, cabin classes, and more. Booking on a Sunday and departing on a Friday could potentially save you money based on historical data.</li>
+  
+  <li><strong>Last-Minute Flight Deals:</strong> You can still find amazing last-minute flight deals 3 weeks prior to departure for domestic travel and 2 weeks prior for international premium flights. Economy travelers may want to book at least 4 weeks out. Stay flexible with travel dates, airports, and flight types to find the cheapest options on Expedia. Whether it's a quick business trip or a spontaneous holiday, Expedia offers a range of flight options to suit your needs.</li>
+</ol> 
+      </h3> 
+    </section>
+    
   </div>
 </>
 
