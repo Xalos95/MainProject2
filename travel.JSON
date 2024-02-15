@@ -3,7 +3,7 @@
       "id": 1,
       "country": "France",
       "city": "Paris",
-      "pic": "paris.jpg",
+      "pic": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/350x350",
       "time": "5 days, 4 nights",
       "departure": "2024-07-10T08:00:00Z",
       "price": 1200
@@ -12,7 +12,7 @@
       "id": 2,
       "country": "Italy",
       "city": "Rome",
-      "pic": "rome.jpg",
+      "pic": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?q=80&w=1996&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/350x350",
       "time": "7 days, 6 nights",
       "departure": "2024-08-20T09:00:00Z",
       "price": 1500
@@ -21,7 +21,7 @@
       "id": 3,
       "country": "Japan",
       "city": "Tokyo",
-      "pic": "tokyo.jpg",
+      "pic": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/350x350",
       "time": "10 days, 9 nights",
       "departure": "2024-09-15T10:00:00Z",
       "price": 2500
@@ -30,7 +30,7 @@
       "id": 4,
       "country": "USA",
       "city": "Los Angeles",
-      "pic": "los_angeles.jpg",
+      "pic": "https://images.unsplash.com/photo-1580655653885-65763b2597d0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/350x350",
       "time": "4 days, 3 nights",
       "departure": "2024-10-05T11:00:00Z",
       "price": 800
@@ -39,7 +39,7 @@
       "id": 5,
       "country": "Australia",
       "city": "Sydney",
-      "pic": "sydney.jpg",
+      "pic": "https://images.unsplash.com/photo-1528072164453-f4e8ef0d475a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/350x350",
       "time": "6 days, 5 nights",
       "departure": "2024-11-12T12:00:00Z",
       "price": 1800
@@ -48,7 +48,7 @@
       "id": 6,
       "country": "Spain",
       "city": "Barcelona",
-      "pic": "barcelona.jpg",
+      "pic": "https://images.unsplash.com/photo-1509840841025-9088ba78a826?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/350x350",
       "time": "3 days, 2 nights",
       "departure": "2024-12-03T13:00:00Z",
       "price": 900
@@ -57,7 +57,7 @@
       "id": 7,
       "country": "Canada",
       "city": "Vancouver",
-      "pic": "vancouver.jpg",
+      "pic": "https://images.unsplash.com/photo-1560814304-4f05b62af116?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/350x350",
       "time": "4 days, 3 nights",
       "departure": "2025-01-20T14:00:00Z",
       "price": 1000
@@ -66,7 +66,7 @@
       "id": 8,
       "country": "Greece",
       "city": "Athens",
-      "pic": "athens.jpg",
+      "pic": "https://images.unsplash.com/photo-1530841377377-3ff06c0ca713?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/350x350",
       "time": "8 days, 7 nights",
       "departure": "2025-02-15T15:00:00Z",
       "price": 2000
@@ -75,7 +75,7 @@
       "id": 9,
       "country": "Thailand",
       "city": "Bangkok",
-      "pic": "bangkok.jpg",
+      "pic": "https://images.unsplash.com/photo-1528181304800-259b08848526?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/350x350",
       "time": "9 days, 8 nights",
       "departure": "2025-03-10T16:00:00Z",
       "price": 2200
@@ -84,7 +84,7 @@
       "id": 10,
       "country": "Brazil",
       "city": "Rio de Janeiro",
-      "pic": "rio.jpg",
+      "pic": "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/350x350",
       "time": "7 days, 6 nights",
       "departure": "2025-04-05T17:00:00Z",
       "price": 1700
